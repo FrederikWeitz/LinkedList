@@ -392,7 +392,7 @@ class LinkedList():
             temp.setMember(dict([(x,y) for x,y in start.getMember().items()]))
             return temp
         if data:
-            start = self.has_Key(data)
+            start = self.has_key(data)
             temp = Member()
             temp.setMember(dict([(x,y) for x,y in start.getMember().items()]))
             return temp
